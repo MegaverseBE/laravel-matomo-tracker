@@ -4,9 +4,9 @@ namespace Alfrasc\MatomoTracker;
 
 use Exception;
 use \Illuminate\Http\Request;
-use PiwikTracker;
+use \MatomoTracker;
 
-class MatomoTracker extends PiwikTracker
+class MatomoTracker extends \MatomoTracker
 {
 
     /** @var string */
